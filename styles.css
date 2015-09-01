@@ -1,0 +1,322 @@
+/* Font weight belongs on top */
+* {
+ font-weight: 200;
+}
+
+/* Font family */
+@font-face {
+ font-family: 'Raleway-ExtraLight';
+ src: url('Raleway-ExtraLight.eot?') format('eot'), url('Raleway-ExtraLight.woff') format('woff'), url('Raleway-ExtraLight.ttf') format('truetype'), url('Raleway-ExtraLight.woff2') format('woff2'), url('Raleway-ExtraLight.svg') format('svg');
+}
+
+@font-face {
+ font-family: 'OpenSans'; 
+ src: local(fonts/OpenSans-Regular.ttf) format('truetype');
+ src: local(fonts/OpenSans-Regular.eot) format('embedded-opentype');
+ src: local(fonts/OpenSans-Regular.woff) format('woff');
+ src: local(fonts/OpenSans-Regular.svg) format('svg');
+}
+
+@font-face {
+font-family: 'OpenSans-Light';
+src: local(fonts/OpenSans-Light.ttf) format('truetype');
+src: local(fonts/OpenSans-Light.eot) format('embedded-opentype');
+src: local(fonts/OpenSans-Light.woff) format('woff');
+src: local(fonts/OpenSans-Light.svg) format('svg');
+}
+
+@font-face {
+font-family: 'OpenSans-Bold';
+src: local(fonts/OpenSans-Bold.ttf) format('truetype');
+src: local(fonts/OpenSans-Bold.eot) format('embedded-opentype');
+src: local(fonts/OpenSans-Bold.woff) format('woff');
+src: local(fonts/OpenSans-Bold.svg) format('svg');
+font-weight: bold;
+}
+
+@font-face {
+font-family: 'OpenSans-LightItalic';
+src: local(fonts/OpenSans-LightItalic.ttf) format('truetype');
+src: local(fonts/OpenSans-LightItalic.eot) format('embedded-opentype');
+src: local(fonts/OpenSans-LightItalic.woff) format('woff');
+src: local(fonts/OpenSans-LightItalic.svg) format('svg');
+font-style: italic;
+}
+
+/* Navigation Bar */
+.navbar-header {
+ float: right;
+}
+
+/* Responsive image feature */
+.img-responsive {
+ display: block;
+ max-width: 100%;
+ height: auto;
+}
+
+/* Jumbotron is for default heading on linked pages */
+.jumbotron { 
+ background-image: url("img/homepage2.jpg"); 
+}
+
+.jumbotron h1 { 
+ color: white; 
+ text-align: center; 
+}
+
+.jumbotron strong {
+ color: white; 
+}
+
+.jumbotron p { 
+ color: white; 
+}
+
+/* Video header */
+.header-container {
+ height: 0;
+ position: relative;
+ padding-bottom: 56.25%;
+ overflow: hidden;
+}
+
+.video-container {
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+}
+
+video {
+ position: absolute;
+ width: 100%;
+}
+
+/* First line of editable text on hero image background */
+.brandname-text { 
+ text-align: center;
+ font-family: 'Raleway-ExtraLight', 'OpenSans-Light', sans-serif;
+ font-size: 3.929em;
+ padding-top: 1em;
+}
+
+/* Heading of each section i.e About, Contact, FAQ */
+h1 {
+ text-align: center;
+ font-family: 'Raleway-ExtraLight', 'OpenSans-Light', sans-serif;
+ font-size: 3.929em;
+ padding-top: 1em;
+}
+
+/* Positiong of hero image background and h1 */
+.carousel-caption { 
+ color: white; 
+ padding-bottom: 2em;
+}
+
+.carousel-inner h1 {
+ position: relative;
+ top: -250px;
+ right: 10px;
+ font-family: 'Raleway-ExtraLight', 'OpenSans-Light', sans-serif;
+ font-size: 55px;
+}
+
+/* Body and paragraph text */
+body {
+ position: relative;
+ padding-top: 3.571em;
+ padding-bottom: 1.429em;
+ background-color: #ffffff;
+ color: #000000;
+ font-family: 'OpenSans-Light', 'OpenSans-LightItalic', 'OpenSans-Bold', sans-serif;
+}
+ 
+p {
+ font-family: 'OpenSans-Light', 'OpenSans-LightItalic', 'OpenSans-Bold', sans-serif;
+ font-size: 1.071em;
+ line-height: 1.429em;
+}
+
+/* Columns of the 3 description boxes */ 
+.col-md-4 {
+ padding-top: 2em;
+}
+
+/* Download box area */
+.download-box { 
+ padding-top: 0.357em; 
+ margin-top: 2.143em; 
+ margin bottom: 2.143em; 
+ background-image: url("img/compass.jpeg"); 
+ background-position: 90% 40%; 
+}
+
+.col-centered {
+ float: none;
+ margin: auto;
+}
+
+.download-box h1 { 
+ text-align: center; 
+ font-size: 2.5em; 
+ color: white; 
+}
+
+.download-box section { 
+ text-align: center; 
+ font-size: 1.143em; 
+ color: white;
+}
+
+.download-box p { 
+ text-align: center; 
+ margin-top: 0.714em; 
+ padding: 0.714em; 
+ color: white; 
+}
+
+/* Modal window positioning */
+iframe { 
+ padding: 0;
+ margin: auto;
+}
+
+.modal-body {
+ height: 35.714em;
+}
+
+#modalframe {
+ padding: 0.714em;
+ width: 100%;
+ height: 100%;
+}
+
+/* Text color inside modal window */
+h4 {
+ color: black;
+} 
+
+/* About area begins */
+#aboutpage { 
+ padding: 2.5em; 
+ margin: 1em; 
+ width: auto;
+ display: block; 
+}
+
+/* About area text */
+.lead { 
+ padding-top: 0.5em; 
+}
+
+/* Contact area begins */
+#contact {
+ background-image: url("img/contactbackground1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ color: white;
+ padding: 1em;
+ padding-bottom: 2em;
+ height: 34.143em;
+ background-position: 50% 20%; 
+}
+
+/* Google Maps */
+#map-canvas {
+ height: 130px;
+ width: 240px;
+ padding: 2em;
+ float: right;
+ text-align: center;
+}
+
+/* Contact area text */
+address {
+ color: #ffffff;
+ float: right;
+ padding: 2em;
+ text-align: center;
+}
+
+/* Form positioning begins */
+form { 
+ display: block; 
+}
+
+.form-group { 
+ color: black; 
+}
+
+.form-control { 
+ width: 25%; 
+}
+
+/* FAQ area begins */
+#faq { 
+ color: black;
+ padding: 1em;
+ margin: 2em;
+}
+
+/* Zebra-striped table */
+table {
+ width: 100%;
+ padding-bottom: 2em;
+}
+
+table, td, th {
+ border: 1px solid black;
+}
+
+th {
+ height: 3.571em;
+ text-align: center;
+}
+
+td {
+ padding: .5em;
+ height: .5em;
+ text-align: center;
+}
+
+/* 4 blocks of photos */
+.image {
+ box-sizing: border-box;
+ border: 2px solid pink;
+ width: 200px;
+ height: 200px;
+ margin: 5px;
+ display: inline-block;
+ position: relative;
+}
+
+.info {
+ display: inline-block;
+ color: #fff;
+ font-family: Futura;
+ text-transform: uppercase;
+ font-weight: 700;
+ letter-spacing: 0.5em;
+ line-height: 1.6;
+ position: absolute;
+ top: 15%;
+ left: 22%;
+}
+
+.proj-title {
+ font-weight: 100;
+}
+
+/* Column boxes for FAQ section */
+#accordion {
+ padding-top: 4em;
+}
+
+.panel-body {
+ color: black; 
+ font-family: 'OpenSans-Light', sans-serif;
+}
+
