@@ -38,13 +38,13 @@ function loadScript() {
 
 window.onload = loadScript;
 
-/* Modal content */
+/* jQuery hover animation in Steps to Get Started */
 
-$('#samplemodal').on('.bs-example-modal-lg', function (event) {
-  var button = $(event.relatedTarget);
-  var recipient = button.data('modal');
-  var modal = $(this);
-    modal.find('.modal-title').text('New message to ' + recipient);
-    modal.find('.modal-body input').val(recipient);
+$(".notli").hide(function() {
+  $("li").filter($(".notli"));
+});
+  $("h1").hover(function() {
+  $(".notli").fadeToggle(1000);
+
 });
 
