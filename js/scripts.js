@@ -1,3 +1,5 @@
+/* Contact Form Character Text Count feature */
+
 $("#message").on("keyup", function() {
 	var charCount = $("#message").val().length;
 	$("#char-count").html(charCount);
@@ -13,6 +15,8 @@ $("button").on("click", function(){
 	$("#visible-comment").html(comment);
 });
 
+/* Google Map API */
+
 var map;
 function initialize() {
   var mapOptions = {
@@ -22,7 +26,7 @@ function initialize() {
   };
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   map.setTilt(45);
- };
+ }
 
 function loadScript() {
   var script = document.createElement('script');
@@ -33,3 +37,14 @@ function loadScript() {
 }
 
 window.onload = loadScript;
+
+/* Modal content */
+
+$('#samplemodal').on('.bs-example-modal-lg', function (event) {
+  var button = $(event.relatedTarget);
+  var recipient = button.data('modal');
+  var modal = $(this);
+    modal.find('.modal-title').text('New message to ' + recipient);
+    modal.find('.modal-body input').val(recipient);
+});
+
