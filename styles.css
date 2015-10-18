@@ -147,7 +147,8 @@ p {
 
 /* Download box area */
 .download-box { 
- padding-top: 0.357em; 
+ padding-top: 0.357em;
+ padding-bottom: 1.429em;
  margin-top: 2.143em; 
  margin bottom: 2.143em; 
  background-image: url("img/compass.jpeg"); 
@@ -320,3 +321,7 @@ td {
  font-family: 'OpenSans-Light', sans-serif;
 }
 
+/* Footer */
+small, .small {
+ padding: 0.714em;
+}
