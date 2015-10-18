@@ -43,7 +43,7 @@ window.onload = loadScript;
 $(".notli").hide(function() {
   $("li").filter($(".notli"));
 });
-  $("h1").hover(function() {
+  $("h2").hover(function() {
   $(".notli").fadeToggle(1000);
 
 });
