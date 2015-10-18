@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon">
 
     <title>Delegation. Made Simple.</title>
 
@@ -41,7 +40,7 @@
 
   <body data-spy="scroll" data-target="#navbar">
    
-  <nav>   <!--navbar starts here-->
+   <!--navbar starts here-->
     <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -61,16 +60,16 @@
           </div>
         </div>
       </div>
-    </div> 
-  </nav><!--navbar ends here-->
+    </nav>
+   <!--navbar ends here-->
 
   <div class="container" id="home">
   </div>
-  <!--------------- Header ---------->
+  <!-- Header -->
 
   <div class="header-container">
     <div class="video-container">
-      <video preload="true" autoplay="" volume="0" poster="img/tasklyhomepage.jpg">
+      <video preload="auto" autoplay="" poster="img/tasklyhomepage.jpg">
         <source src="video/tasklyvidfinal.mp4" type="video/mp4">
           <source src="video/tasklyvid.webm" type="video/webm">
             <source src="video/tasklyvid.ogv" type="video/ogg">
@@ -110,19 +109,19 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-8 col-centered">
+
             <section>
-              <h1>Steps to Get Started</h1>
+              <h2>Steps to Get Started</h2>
                 <ul>
                   <li class="notli">Click on Download Below</li>
-                  <li class="notli">Key In Your Special Z-ID #</li>
+                  <li class="notli">Key In Your Special ID #</li>
                   <li class="notli">Run App as Instructed</li>
                   <li class="notli">Start using!</li>
                 </ul>
                 <br>
                 <p>This download link is unique to you.</p>
-              <p>
-                <a class="btn btn-primary btn-lg" id="#samplemodal" role="button" type="button" data-toggle="modal" data-target=".bs-example-modal-lg">&lsaquo; Download &rsaquo;</a>
-                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false" style="display: none;">
+                <a class="btn btn-primary btn-lg" id="#samplemodal" role="button" data-toggle="modal" data-target=".bs-example-modal-lg">&lsaquo; Download &rsaquo;</a>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="false" style="display: none;">
                   <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -135,7 +134,6 @@
                     </div>
                   </div>
                 </div>
-              </p>    
             </section>
           </div>
         </div>
@@ -147,10 +145,8 @@
       <h1>Why Task.ly?</h1>
       <div class="row" id="aboutpage">
         <div class="col-xs-6 col-md-6 hidden-xs">
-          <a class="modelimage" href="img/model2.jpg" data-lightbox="model2" data-title="Task.ly Web App">
-            <img src="img/model2.jpg" class="img-responsive" data-lightbox="model2">
-
-          </a>
+          <a class="modelimage" href="img/model2.jpg" data-lightbox="model2" data-title="Task.ly Web App"></a>
+          <img src="img/model2.jpg" alt="model person" class="img-responsive" data-lightbox="model2">
         </div>
         <div class="col-xs-12 col-md-6">
           <p class="lead"><em>Task.ly is designed to simply your life by providing the assistant you need, when you need it. It can be frustrating not receiving the help you need, when you need it the most while your regular VA is gone. Life happens - and we want to be there to assist when there is no Plan A or B. Thus, the idea of Task.ly was bred, and the initial web app was born. We're always happy to hear from you and how to improve your overall experience, feel free to contact us any time!</em></p> 
@@ -165,7 +161,7 @@
 
     <br>
 
-    <div class"container-contact" id="contact">
+    <div class="container-contact" id="contact">
       <h1>Contact, Anytime</h1>
         <div class="row">
           <div class="col-xs-12 col-sm-6">
@@ -196,13 +192,13 @@
           <form>
             <div class="form-group">
               <label class="sr-only" for="name">First Name</label>
-              <input type="name" class="form-control" id="name" placeholder="*Name" required="required" name="fullname"></input>
+              <input type="text" class="form-control" id="name" placeholder="*Name" required="required" name="fullname">
             </div>
             <div class="form-group">
               <label class="sr-only" for="email">Email Address</label>
-              <input type="email" class="form-control" id="email" placeholder="*Email" required="required" name="email" x-moz-errormessage="This is not a valid email"></input>
+              <input type="email" class="form-control" id="email" placeholder="*Email" required="required" name="email" >
             </div>
-            <div class-"form-group">
+            <div class="form-group">
               <label class="sr-only" for="message">Text Box</label>
                 <textarea style="resize:none" id="message" cols="40" rows="6" placeholder="*Your message here" name="message" required="required"></textarea>
                 <p id="char-count"></p>
@@ -240,141 +236,140 @@
             </div>
           </div>
         </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingTwo">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-plus"></span>
-              Does my monthly plan include using Task.ly on Demand?
-            </a>
-          </h4>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+                Does my monthly plan include using Task.ly on Demand?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              No, it currently does not. Task.ly on Demand is an additional early access web app charged separately from your monthly plan.
+            </div>
+          </div>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="panel-body">
-            No, it currently does not. Task.ly on Demand is an additional early access web app charged separately from your monthly plan.
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-plus"></span>
+                What is the expected turnaround time for tasks once I send it out?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              We require you specify the expected turnaround time you prefer and we’ll do our best to deliver. For instance, if you need to find reservations for a limousine by Saturday morning and it’s Friday night, please specify a deadline (i.e Saturday at 9 am PST). We ask that clients be mindful and realistic when using the web app and expecting tasks to be received and worked on within a reasonable amount of time of prior notice (i.e sending a task at 9:30 am with a deadline at 10 am, same day, is not realistic).
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span class="glyphicon glyphicon-plus"></span>
+                How can I be first in line to be notified when it’s released?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+              If you’re reading this, then you probably already are in the system!
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><span class="glyphicon glyphicon-plus"></span>
+                What if my task takes longer than how much time I’ve purchased?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+              We’ll notify you! There is a 5 min. grace period boundary that we allow. If your task goes outside of that boundary, we will be sure to notify you so more ticket(s) can be purchased. For example, if you purchased 15 min. of time, but it takes 20 min to complete the task, we won’t contact you. If it takes 10 min. to complete the task, we will charge you the complete ticket. No rollover of time is done in this case.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSix">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><span class="glyphicon glyphicon-plus"></span>
+                Can I replace my monthly plan with Task.ly on Demand credit?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+            <div class="panel-body">
+              Not at this time. This is to make sure you only delegate emergency related or unexpected time sensitive tasks when your VA is not around. In the future, if the demand of incoming tasks rises, we may consider this a full client plan in itself with it's own policies.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSeven">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><span class="glyphicon glyphicon-plus"></span>
+                Why is it called Task.ly on Demand if you don’t work on tasks in an instant?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+            <div class="panel-body">
+              Hey, we’re getting there! The point is to be available when your VA is on holiday or unavailable on weekends/evenings. We have a limited number of staff that can handle your tasks in the case you wish to use the service.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingEight">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><span class="glyphicon glyphicon-plus"></span>
+                Do you have any tips on how to use the app effectively before I get rolling?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+            <div class="panel-body">
+              Our best suggestion is to <b>1) Specify a deadline</b> and <b>2) State a maximum time</b> (i.e "Please spend up to 4 tickets on this research task"). This will help us deliver the highest quality output of work in the least amount of time possible. The rest falls on your delegation/communication skills and how well you already use your VA!
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingNine">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><span class="glyphicon glyphicon-plus"></span>
+                What if you run into a question while working on my task?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+            <div class="panel-body">
+              We will notify you as soon as possible. The admin time it takes to contact you back via email will count towards your ticket time, so please be as clear as possible when sending in your task.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTen">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><span class="glyphicon glyphicon-plus"></span>
+                Ok! I’m ready to start! When does the clock start ticking?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+            <div class="panel-body">
+              Once your task has been received by our dedicated Task.ly staff, you will be notified it has been received with an estimated turnaround time that fits within your deadline!
+            </div>
           </div>
         </div>
       </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingThree">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-plus"></span>
-              What is the expected turnaround time for tasks once I send it out?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="panel-body">
-            We require you specify the expected turnaround time you prefer and we’ll do our best to deliver. For instance, if you need to find reservations for a limousine by Saturday morning and it’s Friday night, please specify a deadline (i.e Saturday at 9 am PST). We ask that clients be mindful and realistic when using the web app and expecting tasks to be received and worked on within a reasonable amount of time of prior notice (i.e sending a task at 9:30 am with a deadline at 10 am, same day, is not realistic).
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFour">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span class="glyphicon glyphicon-plus"></span>
-              How can I be first in line to be notified when it’s released?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-          <div class="panel-body">
-            If you’re reading this, then you probably already are in the system!
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingFive">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><span class="glyphicon glyphicon-plus"></span>
-              What if my task takes longer than how much time I’ve purchased?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-          <div class="panel-body">
-            We’ll notify you! There is a 5 min. grace period boundary that we allow. If your task goes outside of that boundary, we will be sure to notify you so more ticket(s) can be purchased. For example, if you purchased 15 min. of time, but it takes 20 min to complete the task, we won’t contact you. If it takes 10 min. to complete the task, we will charge you the complete ticket. No rollover of time is done in this case.
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingSix">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><span class="glyphicon glyphicon-plus"></span>
-              Can I replace my monthly plan with Task.ly on Demand credit?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-          <div class="panel-body">
-            Not at this time. This is to make sure you only delegate emergency related or unexpected time sensitive tasks when your VA is not around. In the future, if the demand of incoming tasks rises, we may consider this a full client plan in itself with it's own policies.
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingSeven">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><span class="glyphicon glyphicon-plus"></span>
-              Why is it called Task.ly on Demand if you don’t work on tasks in an instant?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-          <div class="panel-body">
-            Hey, we’re getting there! The point is to be available when your VA is on holiday or unavailable on weekends/evenings. We have a limited number of staff that can handle your tasks in the case you wish to use the service.
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingEight">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><span class="glyphicon glyphicon-plus"></span>
-              Do you have any tips on how to use the app effectively before I get rolling?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-          <div class="panel-body">
-            Our best suggestion is to <b>1) Specify a deadline</b> and <b>2) State a maximum time</b> (i.e "Please spend up to 4 tickets on this research task"). This will help us deliver the highest quality output of work in the least amount of time possible. The rest falls on your delegation/communication skills and how well you already use your VA!
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingNine">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><span class="glyphicon glyphicon-plus"></span>
-              What if you run into a question while working on my task?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-          <div class="panel-body">
-            We will notify you as soon as possible. The admin time it takes to contact you back via email will count towards your ticket time, so please be as clear as possible when sending in your task.
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingTen">
-          <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><span class="glyphicon glyphicon-plus"></span>
-              Ok! I’m ready to start! When does the clock start ticking?
-            </a>
-          </h4>
-        </div>
-        <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-          <div class="panel-body">
-            Once your task has been received by our dedicated Task.ly staff, you will be notified it has been received with an estimated turnaround time that fits within your deadline!
-          </div>
-        </div>
-      </div>
-    </div>
-    
+  </div>
 
 
       <hr>
 
       <footer>
-        <ul class="list-inline">
-        <p class="text-right"><small>&copy; Task.ly 2015</small></p>      
+        <p class="text-right"><small>&copy; Task.ly 2015</small></p>
       </footer>
 
 
