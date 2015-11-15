@@ -55,24 +55,6 @@ font-style: italic;
  height: auto;
 }
 
-/* Jumbotron is for default heading on linked pages */
-.jumbotron { 
- background-image: url("img/homepage2.jpg"); 
-}
-
-.jumbotron h1 { 
- color: white; 
- text-align: center; 
-}
-
-.jumbotron strong {
- color: white; 
-}
-
-.jumbotron p { 
- color: white; 
-}
-
 /* Video header */
 .header-container {
  height: 0;
@@ -94,34 +76,12 @@ video {
  width: 100%;
 }
 
-/* First line of editable text on hero image background */
-.brandname-text { 
- text-align: center;
- font-family: 'Raleway-ExtraLight', 'OpenSans-Light', sans-serif;
- font-size: 3.929em;
- padding-top: 1em;
-}
-
 /* Heading of each section i.e About, Contact, FAQ */
 h1 {
  text-align: center;
  font-family: 'Raleway-ExtraLight', 'OpenSans-Light', sans-serif;
  font-size: 3.929em;
  padding-top: 1em;
-}
-
-/* Positiong of hero image background and h1 */
-.carousel-caption { 
- color: white; 
- padding-bottom: 2em;
-}
-
-.carousel-inner h1 {
- position: relative;
- top: -250px;
- right: 10px;
- font-family: 'Raleway-ExtraLight', 'OpenSans-Light', sans-serif;
- font-size: 55px;
 }
 
 /* Body and paragraph text */
@@ -260,38 +220,6 @@ form {
  color: black;
  padding: 1em;
  margin: 2em;
-}
-
-/* Zebra-striped table */
-table {
- width: 100%;
- padding-bottom: 2em;
-}
-
-table, td, th {
- border: 1px solid black;
-}
-
-th {
- height: 3.571em;
- text-align: center;
-}
-
-td {
- padding: .5em;
- height: .5em;
- text-align: center;
-}
-
-/* 4 blocks of photos */
-.image {
- box-sizing: border-box;
- border: 2px solid pink;
- width: 200px;
- height: 200px;
- margin: 5px;
- display: inline-block;
- position: relative;
 }
 
 .info {
