@@ -12,3 +12,9 @@ Worked on implementing the following main features:<br>
 
 
 Purpose was to gain a strong fundamental exposure to Bootstrap's features and framework through hand-on practice of building a site from scratch. Applied media queries, modal windows, columns, containers and all things unique to Bootstrap's fluid grid system.
+
+---
+**Bug Report History**
+
+-10/18/15 Chrome browser bug was found and reported to Bootstrap in the Accordion (12/5/15 Update - Chromium team has now fixed): https://github.com/twbs/bootstrap/issues/17960
+
