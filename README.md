@@ -1,6 +1,7 @@
 # Task.ly
 
 HTML, CSS, and Javascript Hand-coded site using Bootstrap framework<br>
+[Website Link](http://task-ly.netlify.com)
 
 Worked on implementing the following main features:<br>
 -Implemented Parallex scrolling effect<br>
